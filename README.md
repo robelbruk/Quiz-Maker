@@ -1,5 +1,4 @@
 # Quiz-Maker
-# Quiz Maker
 
 ## Overview
 Quiz Maker is a web application designed to generate and host quizzes based on user-provided content. Users can either upload a PDF document or input text manually, and the app will generate a multiple-choice quiz. It also includes a timer and customizable quiz settings.
@@ -16,16 +15,45 @@ Quiz Maker is a web application designed to generate and host quizzes based on u
 ---
 
 ## Technologies Used
-- **Frontend:**
-  - React.js
-  - CSS for styling
-- **Backend:**
-  - Flask
-  - OpenAI API for question generation
-- **Additional Libraries:**
-  - Axios (HTTP requests)
-  - React Router DOM (routing)
-  - PDF.js (PDF parsing)
+
+### Frontend
+- React.js
+- CSS for styling
+
+### Backend
+- Flask
+- OpenAI API for question generation
+
+### Additional Libraries
+- Axios (HTTP requests)
+- React Router DOM (routing)
+- PDF.js (PDF parsing)
+
+---
+
+## Backend Setup
+
+1. Navigate to the `backend/` directory.
+2. Set up a Python virtual environment:
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+3. Create a `.env` file and add your OpenAI API key:
+
+    ```
+    export OPENAI_API_KEY="=your_openai_api_key"
+    ```
+
+4. Start the Flask server:
+
+    ```bash
+    python app.py
+    ```
+
+5. The backend will be available at `http://127.0.0.1:5000`.
 
 ---
 
