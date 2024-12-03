@@ -56,6 +56,18 @@ Quiz Maker is a web application designed to generate and host quizzes based on u
 5. The backend will be available at `http://127.0.0.1:5000`.
 
 ---
+## Demo
+<img width="1459" alt="image" src="https://github.com/user-attachments/assets/b25d59e3-17f2-4a48-ba6e-8d6023072f53">
+<img width="1429" alt="image" src="https://github.com/user-attachments/assets/121ff94d-b17c-4942-9a72-25852cb7ec06">
+<img width="1447" alt="image" src="https://github.com/user-attachments/assets/6cbfb459-2de5-4c75-8045-d5f6e8a902da">
+<img width="1048" alt="image" src="https://github.com/user-attachments/assets/dff2e6aa-c6f0-4b04-a36d-8e61859da64f">
+<img width="1316" alt="image" src="https://github.com/user-attachments/assets/7a8aea8a-71b0-479b-9c47-90ff12012ffd">
+
+
+
+
+
+
 
 ## Project Structure
 
