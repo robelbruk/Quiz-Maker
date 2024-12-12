@@ -33,7 +33,7 @@ Quiz Maker is a web application designed to generate and host quizzes based on u
 
 ## Backend Setup
 
-1. Navigate to the `backend/` directory.
+1. Navigate to the `server/` directory.
 2. Set up a Python virtual environment:
 
     ```bash
@@ -44,7 +44,7 @@ Quiz Maker is a web application designed to generate and host quizzes based on u
 3. Create a `.env` file and add your OpenAI API key:
 
     ```
-    export OPENAI_API_KEY="=your_openai_api_key"
+    export OPENAI_API_KEY="your_api_key_here"
     ```
 
 4. Start the Flask server:
